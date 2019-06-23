@@ -1,0 +1,421 @@
+body{
+	font-family:open sans,sans-serif;
+	font-weight:400;
+	font-size:14px;
+	color:#777;
+	height:100%;
+	
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact_me {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  } 
+
+
+<!--about-->
+.main-title {
+	position:relative;
+	margin-top: 10px;
+   }
+   .main-title small {
+	background:#2dd087;
+	color:#fff;
+	padding:5px 10px;
+	font-size:30px;
+   }
+   .main-title h1,
+   .content-deta .main-title h1 {
+	font-size:38px
+   }
+   .title {
+	position:relative;
+	margin:25px 0;
+	padding:0 0 10px;
+	font-size:26px
+   }
+
+   .about-us .content-deta {
+	padding-top:30px
+   }
+   .about-us .contact-info {
+	display:inline-block;
+	width:100%
+   }
+   .contact-info li {
+	font-size:18px;
+	color:#333;
+	margin-bottom:20px;
+	width:50%;
+	float:left;
+   }
+   .contact-info li:last-child {
+	margin-bottom:0
+   }
+
+   .iq-tw-6 {
+	font-weight:600
+   }
+   
+a,
+.button,
+input {
+ outline:medium;
+ color:#31d181
+}
+.button {
+	color:#333;
+	padding:10px 20px;
+	font-weight:600;
+	font-size:14px;
+	border:none;
+	position:relative;
+	border:2px solid #31d181;
+	display:inline-block;
+	text-transform:uppercase;
+	background:0 0;
+	text-decoration:none;
+	
+   }
+   .button:hover,
+   .button:focus {
+	color:#fff;
+	border-color:#31d181;
+	background:#31d181
+   }
+.kol{
+	margin-top: 18%;
+	margin-left: 42%;
+}
+
+<!--resume-->
+.white-bg {
+    background: #fff;
+}
+.row {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	
+}
+.col-md-6,.col-md-12{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-12{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+.iq-font-purple {
+    color: #31d181;
+}
+.iq-tw-8,.iq-tw-6 {
+	font-weight: 800;	
+}
+li{
+	list-style: none;
+}
+.iq-mt-0 {
+    margin-top: 0;
+}
+.iq-mb-25 {
+    margin-bottom: 25px;
+}
+.iq-font-black {
+    color: #333;
+}
+.iq-mb-0 {
+    margin-bottom: 0;
+}
+
+.iq-mt-80 {
+    margin-top: 80px;
+}
+.iq-plr-40 {
+    padding: 0 40px;
+}
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.iq-our-skills {
+	position:relative;
+   }
+
+   .iq-progress-bar-text {
+	margin-bottom:10px
+   }
+   .iq-progress-bar-text span {
+	float:right
+   }
+   .iq-progress-bar {
+	background:#666 none repeat scroll 0 0;
+	box-shadow:0 0 0;
+	height:5px;
+	margin:0 0 30px;
+	position:relative;
+	width:100%
+   }
+   .iq-progress-bar>span {
+	background:#31d181 none repeat scroll 0 0;
+	display:block;
+	height:100%;
+	width:0
+   }
+   
+
+/*Global*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+section h2{
+text-align: center;
+}
+mark{
+	background-color: lightgreen;
+	text-align: center;
+}
+.button_1{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*Header*/
+header{
+	background: #39d1a2;
+	color: #ffffff;
+	padding-top: 20px;
+	min-height: 50px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: right;	
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: left;
+	margin-top: 5px;
+}
+
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+/*Showcase*/
+#showcase{
+	min-height: 400px;
+	background: url("../img/bg.png") no-repeat 0 -400px;
+	text-align: center;
+	color: white;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size:  55px;
+	margin-bottom: 18px;
+}
+
+#showcase p{
+	font-size: 20px;
+}
+
+
+
+/*newsletter*/
+
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background: #39d1a2;
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="search"]{
+	padding: 7px;
+	height: 38px;
+	width: 250px;
+}
+
+
+
+/*boxes*/
+
+#boxes{
+	margin-top: 20px;
+}
+
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img{
+	width: 90px;
+}
+
+
+
+/*Sidebar*/
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+
+/*Main Col*/
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+
+/*footer*/
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #39d1a2;
+	text-align: center;
+}
+ /* Style all font awesome icons */
+ .fa {
+	padding: 10px;
+	font-size: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 60%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  } 
+  .fa-github {
+	background: #35424a;
+	color: white;
+  }
+  .fa-linkedin {
+	background: #55ACEE;
+	color: white;
+  }  
+  .fa-instagram {
+	background: sandybrown;
+	color: white;
+  } 
